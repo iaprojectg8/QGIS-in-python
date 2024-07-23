@@ -147,8 +147,6 @@ class InputDialog(QDialog):
     
     def autocomplete_paths(self):
         first_file_path = self.image_landsat_9.children()[1].text()
-
-        
         epsg = self.get_epsg_from_LST(first_file_path)
         print(epsg)
         self.update_label_to_filename(epsg)

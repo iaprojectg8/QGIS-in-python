@@ -40,6 +40,7 @@ class ExtractionDuFichierCsvPourOutilIa(QgsProcessingAlgorithm):
     def processAlgorithm(self, parameters, context, model_feedback):
         # Use a multi-step feedback, so that individual child algorithm progress reports are adjusted for the
         # overall progress through the model
+        print(parameters)
         feedback = QgsProcessingMultiStepFeedback(43, model_feedback)
         results = {}
         outputs = {}
