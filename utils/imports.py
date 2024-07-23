@@ -1,5 +1,7 @@
 import sys
 import os
+
+# If we are really in the python environment of QGIS, the PyQt5 import should be written in white
 from PyQt5.QtWidgets import (QApplication, QDialog, QVBoxLayout, QFormLayout, QLineEdit, QDialogButtonBox, 
                              QLabel, QSpinBox, QDoubleSpinBox, QPushButton, QFileDialog, QHBoxLayout,QMessageBox,
                              QWidget)
