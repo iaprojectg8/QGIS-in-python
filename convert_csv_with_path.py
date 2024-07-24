@@ -1,5 +1,5 @@
 from utils.imports import *
-from utils.variables import DATA_FOLDER, RESULTS_FOLDER
+from utils.variables import DATA_FOLDER, RESULTS_FOLDER, FOLDER_PATH
 from algorithms.Script_Préparation_Données import ExtractionDuFichierCsvPourOutilIa
 
 def make_csv(city):
@@ -145,7 +145,7 @@ if __name__ == '__main__':
     app = QApplication(sys.argv)
     Processing.initialize()
 
-    path="C:/Users/FlorianBERGERE/Keran/Groupe_Huit_Interne - Stage-IA/Dataset/UHI_Yaoundé_n°0_2022_01_31_32632"
+    path=FOLDER_PATH
     epsg, city = get_epsg_and_city(path)
     data_path, results_path = reorganize_folder(path)
     parameters = get_parameters(data_path, results_path,epsg_num=epsg,city=city)
