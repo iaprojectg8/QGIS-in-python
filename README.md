@@ -7,6 +7,7 @@
 You need to install and setup OSGeo4W if you don't have it. In case you have it you can try the following instruction, but in case it does not work, don't hesitate to reinstall it.
 
 You can watch this video, it is quite well explained, but you should not have the same version as the guy who explains, so you should not look for the QGIS folder but instead for the OSGeo4W one which is usually at the root of your computer (default installation location during the setup) or at the location you installed it.
+
 [![Watch the video](images/pyqgis_standalone.jpg)](https://www.youtube.com/watch?v=9i16cFZy5M4&t=149s)
 
 If you did not understand well the video here is a summary of what is explained in the it.
