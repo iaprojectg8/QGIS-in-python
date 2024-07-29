@@ -31,4 +31,4 @@ pythonq convert_csv_with_interface.py
 
 You should privilege the file that involves an interface as it is easier to use.
 
-**Warning**, to run `conver_csv_with_path.py`, you will have to change the path assigned to the **FOLDER_PATH** variable in `utils.variables.py` by one of your path toward a GEE extraction folder. 
+**Warning**, to run `convert_csv_with_path.py`, you will have to change the path assigned to the **FOLDER_PATH** variable in `utils.variables.py` by one of your path toward a GEE extraction folder. 
